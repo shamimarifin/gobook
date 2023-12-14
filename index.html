@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoBOOK | Online Book</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Animatio CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+      <!-- Demo styles -->
+  
+
+</head>
+<body>
+  
+    <!-- Header Section Start -->
+    <header id="header">
+       <div class="overlay">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <h3><i class="fa-solid fa-book-open-reader"></i>GoBOOK</h3>
+
+                    <ul id="sideMenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#chapter">Chapters</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#author">Author</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <a href="#" class="btn">Buy Now</a>
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                </a>
+            </nav>
+
+            <div class="header-text">
+                <div class="text" data-aos="fade-left">
+                    <h5><span>50% discount</span> on early purchase</h5>
+                    <h1>The Man in the <br>
+                        Glass House</h1>
+                    <span>A great landing page to sell your eBook!</span>
+
+                    <p>We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p>
+                </div>
+
+                <div class="book-images" data-aos="fade-right">
+                    <img src="assets/images/book-banner.png" alt="">
+                </div>
+            </div>
+        </div>
+       </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Service Section Start -->
+    <section id="services" data-aos="fade-up">
+        <div class="container">
+            <div class="service-list grid">
+                <div>
+                    <i class="fa-solid fa-microphone microphone"></i>
+                    <h4>Experience</h4>
+                    <p>Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-rocket rocket"></i>
+                    <h4>Marketing Goals</h4>
+                    <p>Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-envelope envelope"></i>
+                    <h4>Targetting Vission</h4>
+                    <p>Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="about-left"   data-aos="fade-left">
+                    <div class="title" style="text-align: start;">
+                        <h3>About the book</h3>
+                        <p>This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.</p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="about-item">
+                            <h4>More than 10+ award achieved</h4>
+                            <p>Fugit ratione, repellendus, dignissimos, ducimus voluptatem, quos. Consequatur non eum facilis, ex repellendus, vitae debitis.</p>
+                        </div>
+
+                        <div class="about-item">
+                            <h4>Read On Any Device</h4>
+                            <p>Fugit ratione, repellendus, dignissimos, ducimus voluptatem, quos. Consequatur non eum facilis, ex repellendus, vitae debitis.</p>
+                        </div>
+
+                        <div class="about-item">
+                            <h4>Very high resolution</h4>
+                            <p>Fugit ratione, repellendus, dignissimos, ducimus voluptatem, quos. Consequatur non eum facilis, ex repellendus, vitae debitis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right"   data-aos="fade-right">
+                    <div class="images">
+                        <img src="assets/images/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Counter Section Start -->
+    <section id="counter" class="section section2 border-bottom" data-aos="fade-up">
+        <div class="container">
+            <div class="counter-featers grid">
+                <div class="counter-item">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <div class="text">
+                        <span>Copies Sold</span>
+                        <h3 class="counter">23,500</h3>
+                    </div>
+                </div>
+
+                <div class="counter-item">
+                    <i class="fa-solid fa-check"></i>
+                    <div class="text">
+                        <span>Cup Of Coffee</span>
+                        <h3 class="counter">53,246</h3>
+                    </div>
+                </div>
+
+                <div class="counter-item">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <div class="text">
+                        <span>Copies Released</span>
+                        <h3 class="counter">32,456</h3>
+                    </div>
+                </div>
+
+                <div class="counter-item">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="text">
+                        <span>Happy Readers</span>
+                        <h3 class="counter">45,522</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Counter Section End -->
+
+    <!-- Chapter Section Star -->
+    <section id="chapter" class="section">
+        <div class="container">
+            <div class="title">
+                <h3>What's inside the book</h3>
+                <p>Libero atque veniam molestiae ipsa aliquid quam facilis dolore.</p>
+            </div>
+            <div class="row mt-60">
+                <div class="chapter-left" data-aos="fade-left">
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="chapter-right" data-aos="fade-right">
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+
+                    <div class="chapter-item">
+                        <i class="fa-solid fa-check"></i>
+                        <div class="text">
+                            <h5>Design Principles</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chapter Section End -->
+
+
+    <!-- Call to Action Start -->
+    <section id="cta" class="section" data-aos="fade-up">
+        <div class="container">
+            <div class="title" class="wd-40">
+                <p>A powerful explantion of design</p>
+                <h3>Don’t miss event of Grand <br> Central Publishing.</h3>
+                <a href="#" class="btn1">Purchase Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action End -->
+
+
+    <!-- Review Section Start -->
+    <section id="review" class="section" data-aos="fade-up">
+        <div class="container">
+            <div class="title">
+                <h3>What people are saying</h3>
+                <p>Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!</p>
+            </div>
+
+            <div class="review-slider swiper">
+                <div class="review-wrapper swiper-wrapper">
+                    <!-- Slider Start -->
+                    <div class="slide swiper-slide">
+                        <img src="assets/images/review/pic-1.png" alt="">
+                        <h4>Borrow Hashi</h4>
+                        <span>Sunrise Ten</span>
+                        <p>Reprehenderit corrupti quidem suscipit. Illo, nesciunt nobis adipisci deserunt blanditiis tenetur distinctio sapiente ab!</p>
+
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Slider Start -->
+                    <div class="slide swiper-slide">
+                        <img src="assets/images/review/pic-2.png" alt="">
+                        <h4>Borrow Hashi</h4>
+                        <span>Sunrise Ten</span>
+                        <p>Reprehenderit corrupti quidem suscipit. Illo, nesciunt nobis adipisci deserunt blanditiis tenetur distinctio sapiente ab!</p>
+
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Slider Start -->
+                    <div class="slide swiper-slide">
+                        <img src="assets/images/review/pic-3.png" alt="">
+                        <h4>Borrow Hashi</h4>
+                        <span>Sunrise Ten</span>
+                        <p>Reprehenderit corrupti quidem suscipit. Illo, nesciunt nobis adipisci deserunt blanditiis tenetur distinctio sapiente ab!</p>
+
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Slider Start -->
+                    <div class="slide swiper-slide">
+                        <img src="assets/images/review/pic-3.png" alt="">
+                        <h4>Borrow Hashi</h4>
+                        <span>Sunrise Ten</span>
+                        <p>Reprehenderit corrupti quidem suscipit. Illo, nesciunt nobis adipisci deserunt blanditiis tenetur distinctio sapiente ab!</p>
+
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+                    <!-- Slider Start -->
+                    <div class="slide swiper-slide">
+                        <img src="assets/images/review/pic-4.png" alt="">
+                        <h4>Borrow Hashi</h4>
+                        <span>Sunrise Ten</span>
+                        <p>Reprehenderit corrupti quidem suscipit. Illo, nesciunt nobis adipisci deserunt blanditiis tenetur distinctio sapiente ab!</p>
+
+                        <div class="star">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review Section End -->
+
+    <!-- FAQ Section Star -->
+    <section id="faq" data-aos="fade-up">
+        <div class="container">
+            <div class="title wd-70 wd-100">
+                <h3>Frequently Asked Questions</h3>
+                <p>Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!</p>
+            </div>
+
+            <div class="faq-features">
+                <div class="faq-item">
+                    <div class="heading">
+                        <h4>How to contact with Customer Service?</h4>
+                        <i class="fa-solid fa-plus set"></i>
+                    </div>
+
+                    <div class="content">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="heading">
+                        <h4>New update fixed all bug and issues?</h4>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="content">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="heading">
+                        <h4>Website reponse taking time, how to improve?</h4>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="content">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="heading">
+                        <h4>How to purchase the book online?</h4>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="content">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="get-more-btn">
+                <a href="#" class="btn">Get it now on amazon</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- FAQ Section End -->
+
+
+    <!-- Subscriber Section Start -->
+    <section id="subscriber" class="section section2 mt-70">
+        <div class="container">
+            <div class="row">
+                <div class="subscribe-left" data-aos="fade-left">
+                    <h2>Start building a landing page that converts to leads.</h2>
+                </div>
+                <div class="subscrib-right" data-aos="fade-right">
+                    <form action="" method="post">
+                        <input type="text" name="fullname" placeholder="Full Name" id="" class="box">
+
+                        <input type="email" name="email" placeholder="Enter Your email" id="" class="box">
+
+                        <button type="submit" class="btn btn2">Get free trial</button>
+                    </form>
+                    <p>* Download link will be emailed to you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscriber Section End -->
+
+    <!-- Author Section Start -->
+    <section id="author" class="section section2">
+        <div class="container">
+            <div class="row">
+                <div class="author-img" data-aos="fade-left">
+                    <img src="assets/images/authorimg.jpg" alt="">
+                </div>
+                <div class="author-content" data-aos="fade-right">
+                    <p>Know More About Author</p>
+                    <h3>Yeashin Arafat <span>-Technical Writer</span></h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, culpa fugiat perspiciatis, ipsa et, cumque molestiae voluptates dicta aliquid nisi vel. Expedita commodi blanditiis, dolor illo exercitationem esse tempora veritatis omnis sed aliquid at ea.</p>
+
+                    <img src="assets/images/2.png" alt="" class="sign">
+
+                    <div class="social-links">
+                        <span>Follow Me : </span>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Author Section End -->
+
+    <!-- Client Section Start -->
+    <section id="clients" class="section section2" data-aos="fade-up">
+        <div class="container">
+            <div class="row border">
+                <div class="first-item">
+                    <h6>Featured by companies like: </h6>
+                </div>
+                <div class="second-item">
+                    <img src="assets/images/client-1.png" alt="">
+                </div>
+                <div class="third-item">
+                    <img src="assets/images/client-2.png" alt="">
+                </div>
+                <div class="four-item">
+                    <img src="assets/images/client-3.png" alt="">
+                </div>
+
+                <div class="five-item">
+                    <img src="assets/images/client-4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Client Section End -->
+
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section section2">
+        <div class="container">
+            <div class="title mb-70">
+                <h3>Contact Author</h3>
+                <p>Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!</p>
+            </div>
+
+            <div class="row">
+
+                <div class="contact-left" data-aos="fade-left">
+                    <form action="">
+                        <div class="input-item">
+                            <div>
+                                <input type="text" name="" id="" placeholder="Enter Your name" class="boxInput">
+                                <input type="email" name="" id="" placeholder="Enter Your email" class="boxInput">
+                            </div>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" class="textArea">Message</textarea>
+
+                        <div class="submit-area">
+                            <p>* Rest assured.We will not spam at your inbox.</p>
+                            <a href="#" class="btn">Send Message</a>
+                        </div>
+                    </form>
+                    
+                </div>
+
+
+                <div class="contact-right" data-aos="fade-right">
+                    <div class="contact-number">
+                        <h4>Contact</h4>
+                        <p>+ 301 324 9131</p>
+                    </div>
+
+                    <div class="contact-email mt-30">
+                        <h4>Email</h4>
+                        <p>info@example.com</p>
+                    </div>
+
+                    <div class="contact-location mt-30">
+                        <h4>Location</h4>
+                        <p>3125 Flanigan Oaks Drive Capitol Heights, MD <br> 20027</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Copyright Section Start -->
+    <section id="copyright">
+        <div class="container">
+            <div class="copyright-area">
+                <p>© Copyright <span>Shamim</span> rights reserved-2021.</p>
+
+                <div class="app-link">
+                    <img src="assets/images/cards-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright Section End -->
+
+
+
+
+    <!-- ---------------- All Javascript link ------------------ -->
+      <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Script JS -->
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- Animation JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+</html>
